@@ -12,7 +12,7 @@ section {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #e3f2fd;
+    background: white;
 }
 
 .show-modal{
@@ -60,14 +60,16 @@ button.show-modal
     }
 }
 
-.bg-black {
+.overlay {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: black;
+    background: rgba(0,0,0, 0.3);
     opacity: 0;
     pointer-events: none;
 }
+
+
 
 section.active .show-modal{
     display: none;

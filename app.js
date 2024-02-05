@@ -1,5 +1,5 @@
 var section = document.querySelector('section'),
-    overlay = document.querySelector('.bg-black'),
+    overlay = document.querySelector('.overlay'),
     openBtn = document.querySelector('.show-modal'),
     closeBtn = document.querySelector('.close-btn');
     closeX = document.querySelector('.close-x')
