@@ -11,3 +11,7 @@ function cs(){
     body.style.background = 'white';
 }
 
+document.addEventListener('contextmenu', function (p) {
+    p.preventDefault();
+    alert("Kod ni ko'chirish mumkinmas !!!");
+});
