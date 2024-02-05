@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+     padding-left: 20px;
+    padding-right: 20px; 
+}
+
+h1{
+    color: green;
+}
+
+.btn{
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 30px;
+    background: rgb(36, 255, 36);
+    color: white;
+    font-size: 15px ;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal{
+    border: 2px solid black;
+    width: 400px;
+    height: 250px;
+    border-radius: 25px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 0 auto;
+    transform: translateY(-1000px);
+    transition: 0.3s ease;
+    position: fixed;
+    top:170px;
+    left: 35%;
+    background: white;
+}
+
+.modal h2{
+    text-align: center;
+    margin-top: 10px;
+    color: #0095ff;
+    margin-bottom: 60px;
+    border-bottom: 3px dashed black;
+    padding-bottom: 10px;
+}
+
+.modal p{
+    border-bottom: 3px dashed black;
+    padding-bottom: 40px;
+}
+
+
+.modal__close{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0095ff;
+    color: white;
+    cursor: pointer;
+}
+
+.modal button{
+    margin-top: 10px;
+}
+
+.modal__save{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #b0b3b5;
+    color: white;
+}
+
+.modal__js{
+    transform: translateY(0px);
+}
+
+.close__js{
+    transform: translateY(-1000px);
+}   
+
+.input{
+    background: #00000038;
+}
