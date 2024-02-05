@@ -7,21 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>MODAL</h1>
-        <button onclick="fn()" class="btn">open modal</button>
+   
+    <section class="overlay">
+        <button class="show-modal">show modal</button>
+        <span class="bg-black"></span>
 
-        <div class="modal">
-            <div class="modal_remove">
+        <div class="box-modal">
+            <div class="div">
                 <h2>Hello , What's Up</h2>
+                <button class="close-x">X</button>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Repudiandae, minus.</p>
-            <button onclick="cs()" class="modal__close">close</button>
-            <button class="modal__save">save</button>
-        </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
 
+            <div class="buttons">
+                <button class="close-btn">close</button>
+                <button class="button-two">save</button>
+            </div>
+        </div>
+    </section>
         
-    </div>
+  
     
 
 

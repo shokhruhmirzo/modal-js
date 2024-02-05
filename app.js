@@ -1,17 +1,16 @@
-var modal = document.querySelector('.modal');
-var body = document.querySelector('body');
+var section = document.querySelector('section'),
+    overlay = document.querySelector('.bg-black'),
+    openBtn = document.querySelector('.show-modal'),
+    closeBtn = document.querySelector('.close-btn');
+    closeX = document.querySelector('.close-x')
 
-function fn(){
-    modal.classList.add('modal__js');
-    body.style.background = '#00000038';
+    openBtn.addEventListener("click", () => section.classList.add("active"));
+    closeX.addEventListener('click', () => section.classList.remove("active"));
+    overlay.addEventListener('click' , () => section.classList.remove("active"));
+    closeBtn.addEventListener("click", () => section.classList.remove("active"));
 
-}
-function cs(){
-    modal.classList.remove('modal__js')
-    body.style.background = 'white';
-}
+// document.addEventListener('contextmenu', function (p) {
+//     p.preventDefault();
+//     alert("Kod ni ko'chirish mumkinmas !!!");
+// });
 
-document.addEventListener('contextmenu', function (p) {
-    p.preventDefault();
-    alert("Kod ni ko'chirish mumkinmas !!!");
-});
